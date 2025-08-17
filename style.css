@@ -1,0 +1,11 @@
+#box{
+  font-size:90px;
+  width: 100px;
+  height: 100px;
+  background: red;
+  animation-name: slidedown;
+  animation-duration:3s;
+}
+@keyframes slidedown{
+  from{transform:translatey(300%)}
+}
